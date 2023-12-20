@@ -1,7 +1,7 @@
 
 ## Getting Started
 
-Test Cases Description:
+## Test Cases Description:
 
 1. New Customer Registration Test (NewCustomerRegistrationTest)
 Ensure the seamless registration process for new customers on the Parabank website. This automated test case verifies that users can successfully create a new account, receive confirmation, and log in with their registered credentials.
@@ -12,7 +12,10 @@ Validate the login and logout functionality for existing users. This automated t
 3. View Account Information Test (ViewAccountInfoTest)
 Verify the accuracy of account information retrieval. This automated test case ensures that users can view their account balances and transaction history after logging in, providing a reliable overview of their financial activities on the Parabank website.
 
-To setup project :
+## Result
+![TestResult](https://github.com/vaishnavi112/ParaBankAutomation-Part2/assets/51792745/1d1b6929-1415-4d3e-ba40-83adb5270434)
+
+## To Setup Project :
 
 1. Create a Maven Project 
 
