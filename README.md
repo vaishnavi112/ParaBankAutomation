@@ -97,6 +97,6 @@ Report will be generated into temp folder. Web server with results will start.
 
 Report will be generated tо directory: target\surefire-reports\index.html
 
+## Note: Discovered a bug while exploring the website.
 
-
-
+Bug Description: After registering a new user, there is an issue where users are unable to log in with the newly created username and password. It's important to note that this is an intermittent issue.
