@@ -1,9 +1,22 @@
 
 ## Getting Started
 
-Create a Maven Project 
+Test Cases Description:
 
-* Add following lines into your `pom.xml` build section:
+1. New Customer Registration Test (NewCustomerRegistrationTest)
+Ensure the seamless registration process for new customers on the Parabank website. This automated test case verifies that users can successfully create a new account, receive confirmation, and log in with their registered credentials.
+
+2. User Login and Logout Test (UserLoginLogoutTest)
+Validate the login and logout functionality for existing users. This automated test case confirms that users can securely log in with their credentials, access their account dashboard, and log out successfully, maintaining the security of their accounts.
+
+3. View Account Information Test (ViewAccountInfoTest)
+Verify the accuracy of account information retrieval. This automated test case ensures that users can view their account balances and transaction history after logging in, providing a reliable overview of their financial activities on the Parabank website.
+
+To setup project :
+
+1. Create a Maven Project 
+
+2. Add following lines into your `pom.xml` build section:
 ```
 <dependencies>
         <dependency>
@@ -82,15 +95,5 @@ Report will be generated into temp folder. Web server with results will start.
 Report will be generated tо directory: target\surefire-reports\index.html
 
 
-Test Cases Description:
-
-1. New Customer Registration Test (NewCustomerRegistrationTest)
-Ensure the seamless registration process for new customers on the Parabank website. This automated test case verifies that users can successfully create a new account, receive confirmation, and log in with their registered credentials.
-
-2. User Login and Logout Test (UserLoginLogoutTest)
-Validate the login and logout functionality for existing users. This automated test case confirms that users can securely log in with their credentials, access their account dashboard, and log out successfully, maintaining the security of their accounts.
-
-3. View Account Information Test (ViewAccountInfoTest)
-Verify the accuracy of account information retrieval. This automated test case ensures that users can view their account balances and transaction history after logging in, providing a reliable overview of their financial activities on the Parabank website.
 
 
